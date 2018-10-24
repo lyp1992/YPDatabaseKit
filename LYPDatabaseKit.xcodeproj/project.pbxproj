@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D729254321800F3200130D8B /* YPTable.m in Sources */ = {isa = PBXBuildFile; fileRef = D729254221800F3200130D8B /* YPTable.m */; };
+		D7998ED1217EF6EB0095F74E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7998ED0217EF6EB0095F74E /* AppDelegate.m */; };
+		D7998ED4217EF6EB0095F74E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7998ED3217EF6EB0095F74E /* ViewController.m */; };
+		D7998ED7217EF6EB0095F74E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7998ED5217EF6EB0095F74E /* Main.storyboard */; };
+		D7998ED9217EF6EC0095F74E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7998ED8217EF6EC0095F74E /* Assets.xcassets */; };
+		D7998EDC217EF6EC0095F74E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7998EDA217EF6EC0095F74E /* LaunchScreen.storyboard */; };
+		D7998EDF217EF6EC0095F74E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7998EDE217EF6EC0095F74E /* main.m */; };
+		D7998EE9217EF6ED0095F74E /* LYPDatabaseKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7998EE8217EF6ED0095F74E /* LYPDatabaseKitTests.m */; };
+		D7998EF4217EF6ED0095F74E /* LYPDatabaseKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7998EF3217EF6ED0095F74E /* LYPDatabaseKitUITests.m */; };
+		D7998F04217EF7FA0095F74E /* YPSqliteTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D7998F03217EF7FA0095F74E /* YPSqliteTool.m */; };
+		D7998F07217EF80A0095F74E /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D7998F06217EF80A0095F74E /* libsqlite3.0.tbd */; };
+		D7998F0C217F086D0095F74E /* YPSqliteModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D7998F0B217F086D0095F74E /* YPSqliteModelTool.m */; };
+		D7998F0F217F094C0095F74E /* YPModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D7998F0E217F094C0095F74E /* YPModel.m */; };
+		D7998F52217F17240095F74E /* YPModelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D7998F51217F17240095F74E /* YPModelTest.m */; };
+		D7998F55217F17670095F74E /* YPStu.m in Sources */ = {isa = PBXBuildFile; fileRef = D7998F54217F17670095F74E /* YPStu.m */; };
+		D7998F58217F21180095F74E /* YPSqliteModelToolTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D7998F57217F21180095F74E /* YPSqliteModelToolTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7998EE5217EF6ED0095F74E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7998EC4217EF6EB0095F74E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7998ECB217EF6EB0095F74E;
+			remoteInfo = LYPDatabaseKit;
+		};
+		D7998EF0217EF6ED0095F74E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7998EC4217EF6EB0095F74E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7998ECB217EF6EB0095F74E;
+			remoteInfo = LYPDatabaseKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D729254121800F3200130D8B /* YPTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YPTable.h; sourceTree = "<group>"; };
+		D729254221800F3200130D8B /* YPTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPTable.m; sourceTree = "<group>"; };
+		D7998ECC217EF6EB0095F74E /* LYPDatabaseKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYPDatabaseKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7998ECF217EF6EB0095F74E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D7998ED0217EF6EB0095F74E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D7998ED2217EF6EB0095F74E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D7998ED3217EF6EB0095F74E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D7998ED6217EF6EB0095F74E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7998ED8217EF6EC0095F74E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7998EDB217EF6EC0095F74E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7998EDD217EF6EC0095F74E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7998EDE217EF6EC0095F74E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7998EE4217EF6ED0095F74E /* LYPDatabaseKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYPDatabaseKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7998EE8217EF6ED0095F74E /* LYPDatabaseKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYPDatabaseKitTests.m; sourceTree = "<group>"; };
+		D7998EEA217EF6ED0095F74E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7998EEF217EF6ED0095F74E /* LYPDatabaseKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYPDatabaseKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7998EF3217EF6ED0095F74E /* LYPDatabaseKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYPDatabaseKitUITests.m; sourceTree = "<group>"; };
+		D7998EF5217EF6ED0095F74E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7998F02217EF7FA0095F74E /* YPSqliteTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YPSqliteTool.h; sourceTree = "<group>"; };
+		D7998F03217EF7FA0095F74E /* YPSqliteTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPSqliteTool.m; sourceTree = "<group>"; };
+		D7998F06217EF80A0095F74E /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		D7998F0A217F086D0095F74E /* YPSqliteModelTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YPSqliteModelTool.h; sourceTree = "<group>"; };
+		D7998F0B217F086D0095F74E /* YPSqliteModelTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPSqliteModelTool.m; sourceTree = "<group>"; };
+		D7998F0D217F094C0095F74E /* YPModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YPModel.h; sourceTree = "<group>"; };
+		D7998F0E217F094C0095F74E /* YPModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPModel.m; sourceTree = "<group>"; };
+		D7998F51217F17240095F74E /* YPModelTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPModelTest.m; sourceTree = "<group>"; };
+		D7998F53217F17670095F74E /* YPStu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YPStu.h; sourceTree = "<group>"; };
+		D7998F54217F17670095F74E /* YPStu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPStu.m; sourceTree = "<group>"; };
+		D7998F56217F1EC60095F74E /* YPSqliteModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YPSqliteModelProtocol.h; sourceTree = "<group>"; };
+		D7998F57217F21180095F74E /* YPSqliteModelToolTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPSqliteModelToolTest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7998EC9217EF6EB0095F74E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7998F07217EF80A0095F74E /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7998EE1217EF6ED0095F74E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7998EEC217EF6ED0095F74E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7998EC3217EF6EB0095F74E = {
+			isa = PBXGroup;
+			children = (
+				D7998ECE217EF6EB0095F74E /* LYPDatabaseKit */,
+				D7998EE7217EF6ED0095F74E /* LYPDatabaseKitTests */,
+				D7998EF2217EF6ED0095F74E /* LYPDatabaseKitUITests */,
+				D7998ECD217EF6EB0095F74E /* Products */,
+				D7998F05217EF8090095F74E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D7998ECD217EF6EB0095F74E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7998ECC217EF6EB0095F74E /* LYPDatabaseKit.app */,
+				D7998EE4217EF6ED0095F74E /* LYPDatabaseKitTests.xctest */,
+				D7998EEF217EF6ED0095F74E /* LYPDatabaseKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7998ECE217EF6EB0095F74E /* LYPDatabaseKit */ = {
+			isa = PBXGroup;
+			children = (
+				D7998F01217EF71F0095F74E /* DataBaseKit */,
+				D7998ECF217EF6EB0095F74E /* AppDelegate.h */,
+				D7998ED0217EF6EB0095F74E /* AppDelegate.m */,
+				D7998ED2217EF6EB0095F74E /* ViewController.h */,
+				D7998ED3217EF6EB0095F74E /* ViewController.m */,
+				D7998F53217F17670095F74E /* YPStu.h */,
+				D7998F54217F17670095F74E /* YPStu.m */,
+				D7998ED5217EF6EB0095F74E /* Main.storyboard */,
+				D7998ED8217EF6EC0095F74E /* Assets.xcassets */,
+				D7998EDA217EF6EC0095F74E /* LaunchScreen.storyboard */,
+				D7998EDD217EF6EC0095F74E /* Info.plist */,
+				D7998EDE217EF6EC0095F74E /* main.m */,
+			);
+			path = LYPDatabaseKit;
+			sourceTree = "<group>";
+		};
+		D7998EE7217EF6ED0095F74E /* LYPDatabaseKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7998EE8217EF6ED0095F74E /* LYPDatabaseKitTests.m */,
+				D7998F51217F17240095F74E /* YPModelTest.m */,
+				D7998F57217F21180095F74E /* YPSqliteModelToolTest.m */,
+				D7998EEA217EF6ED0095F74E /* Info.plist */,
+			);
+			path = LYPDatabaseKitTests;
+			sourceTree = "<group>";
+		};
+		D7998EF2217EF6ED0095F74E /* LYPDatabaseKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7998EF3217EF6ED0095F74E /* LYPDatabaseKitUITests.m */,
+				D7998EF5217EF6ED0095F74E /* Info.plist */,
+			);
+			path = LYPDatabaseKitUITests;
+			sourceTree = "<group>";
+		};
+		D7998F01217EF71F0095F74E /* DataBaseKit */ = {
+			isa = PBXGroup;
+			children = (
+				D7998F02217EF7FA0095F74E /* YPSqliteTool.h */,
+				D7998F03217EF7FA0095F74E /* YPSqliteTool.m */,
+				D7998F0A217F086D0095F74E /* YPSqliteModelTool.h */,
+				D7998F0B217F086D0095F74E /* YPSqliteModelTool.m */,
+				D7998F0D217F094C0095F74E /* YPModel.h */,
+				D7998F0E217F094C0095F74E /* YPModel.m */,
+				D729254121800F3200130D8B /* YPTable.h */,
+				D729254221800F3200130D8B /* YPTable.m */,
+				D7998F56217F1EC60095F74E /* YPSqliteModelProtocol.h */,
+			);
+			path = DataBaseKit;
+			sourceTree = "<group>";
+		};
+		D7998F05217EF8090095F74E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7998F06217EF80A0095F74E /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7998ECB217EF6EB0095F74E /* LYPDatabaseKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7998EF8217EF6ED0095F74E /* Build configuration list for PBXNativeTarget "LYPDatabaseKit" */;
+			buildPhases = (
+				D7998EC8217EF6EB0095F74E /* Sources */,
+				D7998EC9217EF6EB0095F74E /* Frameworks */,
+				D7998ECA217EF6EB0095F74E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYPDatabaseKit;
+			productName = LYPDatabaseKit;
+			productReference = D7998ECC217EF6EB0095F74E /* LYPDatabaseKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7998EE3217EF6ED0095F74E /* LYPDatabaseKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7998EFB217EF6ED0095F74E /* Build configuration list for PBXNativeTarget "LYPDatabaseKitTests" */;
+			buildPhases = (
+				D7998EE0217EF6ED0095F74E /* Sources */,
+				D7998EE1217EF6ED0095F74E /* Frameworks */,
+				D7998EE2217EF6ED0095F74E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7998EE6217EF6ED0095F74E /* PBXTargetDependency */,
+			);
+			name = LYPDatabaseKitTests;
+			productName = LYPDatabaseKitTests;
+			productReference = D7998EE4217EF6ED0095F74E /* LYPDatabaseKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7998EEE217EF6ED0095F74E /* LYPDatabaseKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7998EFE217EF6ED0095F74E /* Build configuration list for PBXNativeTarget "LYPDatabaseKitUITests" */;
+			buildPhases = (
+				D7998EEB217EF6ED0095F74E /* Sources */,
+				D7998EEC217EF6ED0095F74E /* Frameworks */,
+				D7998EED217EF6ED0095F74E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7998EF1217EF6ED0095F74E /* PBXTargetDependency */,
+			);
+			name = LYPDatabaseKitUITests;
+			productName = LYPDatabaseKitUITests;
+			productReference = D7998EEF217EF6ED0095F74E /* LYPDatabaseKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7998EC4217EF6EB0095F74E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YP;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = laiyongpeng;
+				TargetAttributes = {
+					D7998ECB217EF6EB0095F74E = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					D7998EE3217EF6ED0095F74E = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D7998ECB217EF6EB0095F74E;
+					};
+					D7998EEE217EF6ED0095F74E = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D7998ECB217EF6EB0095F74E;
+					};
+				};
+			};
+			buildConfigurationList = D7998EC7217EF6EB0095F74E /* Build configuration list for PBXProject "LYPDatabaseKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7998EC3217EF6EB0095F74E;
+			productRefGroup = D7998ECD217EF6EB0095F74E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7998ECB217EF6EB0095F74E /* LYPDatabaseKit */,
+				D7998EE3217EF6ED0095F74E /* LYPDatabaseKitTests */,
+				D7998EEE217EF6ED0095F74E /* LYPDatabaseKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7998ECA217EF6EB0095F74E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7998EDC217EF6EC0095F74E /* LaunchScreen.storyboard in Resources */,
+				D7998ED9217EF6EC0095F74E /* Assets.xcassets in Resources */,
+				D7998ED7217EF6EB0095F74E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7998EE2217EF6ED0095F74E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7998EED217EF6ED0095F74E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7998EC8217EF6EB0095F74E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7998F0C217F086D0095F74E /* YPSqliteModelTool.m in Sources */,
+				D7998ED4217EF6EB0095F74E /* ViewController.m in Sources */,
+				D7998F55217F17670095F74E /* YPStu.m in Sources */,
+				D7998F0F217F094C0095F74E /* YPModel.m in Sources */,
+				D7998EDF217EF6EC0095F74E /* main.m in Sources */,
+				D729254321800F3200130D8B /* YPTable.m in Sources */,
+				D7998F04217EF7FA0095F74E /* YPSqliteTool.m in Sources */,
+				D7998ED1217EF6EB0095F74E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7998EE0217EF6ED0095F74E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7998F52217F17240095F74E /* YPModelTest.m in Sources */,
+				D7998EE9217EF6ED0095F74E /* LYPDatabaseKitTests.m in Sources */,
+				D7998F58217F21180095F74E /* YPSqliteModelToolTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7998EEB217EF6ED0095F74E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7998EF4217EF6ED0095F74E /* LYPDatabaseKitUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7998EE6217EF6ED0095F74E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7998ECB217EF6EB0095F74E /* LYPDatabaseKit */;
+			targetProxy = D7998EE5217EF6ED0095F74E /* PBXContainerItemProxy */;
+		};
+		D7998EF1217EF6ED0095F74E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7998ECB217EF6EB0095F74E /* LYPDatabaseKit */;
+			targetProxy = D7998EF0217EF6ED0095F74E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7998ED5217EF6EB0095F74E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7998ED6217EF6EB0095F74E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7998EDA217EF6EC0095F74E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7998EDB217EF6EC0095F74E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7998EF6217EF6ED0095F74E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D7998EF7217EF6ED0095F74E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7998EF9217EF6ED0095F74E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN43523GZM;
+				INFOPLIST_FILE = LYPDatabaseKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "animal.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7998EFA217EF6ED0095F74E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN43523GZM;
+				INFOPLIST_FILE = LYPDatabaseKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "animal.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D7998EFC217EF6ED0095F74E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN43523GZM;
+				INFOPLIST_FILE = LYPDatabaseKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = animal.LYPDatabaseKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYPDatabaseKit.app/LYPDatabaseKit";
+			};
+			name = Debug;
+		};
+		D7998EFD217EF6ED0095F74E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN43523GZM;
+				INFOPLIST_FILE = LYPDatabaseKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = animal.LYPDatabaseKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYPDatabaseKit.app/LYPDatabaseKit";
+			};
+			name = Release;
+		};
+		D7998EFF217EF6ED0095F74E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN43523GZM;
+				INFOPLIST_FILE = LYPDatabaseKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = animal.LYPDatabaseKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LYPDatabaseKit;
+			};
+			name = Debug;
+		};
+		D7998F00217EF6ED0095F74E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN43523GZM;
+				INFOPLIST_FILE = LYPDatabaseKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = animal.LYPDatabaseKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LYPDatabaseKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7998EC7217EF6EB0095F74E /* Build configuration list for PBXProject "LYPDatabaseKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7998EF6217EF6ED0095F74E /* Debug */,
+				D7998EF7217EF6ED0095F74E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7998EF8217EF6ED0095F74E /* Build configuration list for PBXNativeTarget "LYPDatabaseKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7998EF9217EF6ED0095F74E /* Debug */,
+				D7998EFA217EF6ED0095F74E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7998EFB217EF6ED0095F74E /* Build configuration list for PBXNativeTarget "LYPDatabaseKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7998EFC217EF6ED0095F74E /* Debug */,
+				D7998EFD217EF6ED0095F74E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7998EFE217EF6ED0095F74E /* Build configuration list for PBXNativeTarget "LYPDatabaseKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7998EFF217EF6ED0095F74E /* Debug */,
+				D7998F00217EF6ED0095F74E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7998EC4217EF6EB0095F74E /* Project object */;
+}
